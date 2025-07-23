@@ -5,8 +5,7 @@ import { traeBadgePlugin } from 'vite-plugin-trae-solo-badge';
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Temporarily remove base path to test
-  // base: process.env.NODE_ENV === 'production' ? '/Help_Nest_Foundation/' : '/',
+  base: './',
   plugins: [
     react({
       babel: {
