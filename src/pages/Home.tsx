@@ -89,9 +89,9 @@ export default function Home() {
                   Scan to Donate via PayPal
                 </h3>
                 <div className="bg-white p-6 rounded-lg shadow-md inline-block">
-                  <img 
-                    src="/src/assets/QR.jpg" 
-                    alt="Donation QR Code" 
+                  <img
+                    src="./QR.jpg"
+                    alt="Donation QR Code"
                     className="w-48 h-48 mx-auto"
                   />
                 </div>
