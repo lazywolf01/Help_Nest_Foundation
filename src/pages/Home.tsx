@@ -90,7 +90,7 @@ export default function Home() {
                 </h3>
                 <div className="bg-white p-6 rounded-lg shadow-md inline-block">
                   <img 
-                    src="/QR.jpg" 
+                    src="/src/assets/QR.jpg" 
                     alt="Donation QR Code" 
                     className="w-48 h-48 mx-auto"
                   />
