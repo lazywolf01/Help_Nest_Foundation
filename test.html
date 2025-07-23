@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Help Nest Foundation - Test Page</h1>
+        <div class="test-section">
+            <h2>✅ Basic HTML Working</h2>
+            <p>If you can see this, basic HTML is working fine.</p>
+        </div>
+        <div class="test-section">
+            <h2>🔍 Testing JavaScript</h2>
+            <p id="js-test">JavaScript not loaded...</p>
+            <script>
+                document.getElementById('js-test').textContent = '✅ JavaScript is working!';
+            </script>
+        </div>
+        <div class="test-section">
+            <h2>📱 React App Status</h2>
+            <p>This is a simple test to verify that the server is working. The React app should be accessible at the same domain.</p>
+            <a href="./index.html" style="color: #007bff; text-decoration: none;">→ Go to React App</a>
+        </div>
+    </div>
+</body>
+</html>
